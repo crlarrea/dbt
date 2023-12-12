@@ -1,0 +1,21 @@
+
+version: 2
+
+models:
+  - name: users
+    description: "{{doc('DocBlock')}}"
+    columns:
+      - name: user_id
+        description: "The primary key for this table"
+        tests:
+          - unique
+
+
+  - name: downloads
+    description: "A starter dbt model"
+    columns:
+      - name: user_id
+        description: "The primary key for this table"
+        tests:
+          - unique
+          

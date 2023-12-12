@@ -1,0 +1,12 @@
+sources:
+  - name: portfolio
+    database: cidobiyi
+    schema: portfolio
+    tables:
+      - name: pages
+        description: 'Table containing page views.'
+        identifier: pages
+      - name: file_download
+        identifier: file_download
+      - name: track
+        identifier: track      
